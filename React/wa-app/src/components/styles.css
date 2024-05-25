@@ -1,0 +1,25 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navigation
+{
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation li a
+{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.navigation li
+{
+    padding: 0 1rem;
+}
+
