@@ -9,7 +9,7 @@
 
 body 
 {
-background: rgb(6, 41, 40);
+background: rgb(0, 7, 4);
 }
 
 code {
@@ -51,4 +51,11 @@ color: gray;
   background: rgb(6, 92, 28);
   color: rgb(0, 0, 0);
 
+}
+
+.btn:hover 
+{
+  background: black, 0.5;
+  color: white;
+  transition: 0.3s;
 }
