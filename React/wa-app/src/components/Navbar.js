@@ -2,15 +2,16 @@ import { Link } from "react-router-dom"
 import "./styles.css"
 import React, { useState } from 'react'
 import {FaBars,FaTimes}from "react-icons/fa";
-
+import LogCz from "../images/ceskaflagTR.png"
 const Navbar = () => {
 const[click,setClick] = useState(false);
 const handleClick = () => setClick(!click)
 
   return (
-    <div className="header">
-      <Link to ="/">
-        <h1>GVP</h1>
+    <div className="header-nav">
+      <Link className="logo" to ="/">
+        <img src={LogCz} alt="czflag"/>
+        <h1>Blender creations</h1>
       </Link>
        <ul className={click ? "navigation active" : "navigation"}>
           <li>

@@ -1,10 +1,32 @@
-.header
+
+
+
+.header-nav
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    z-index: 10;
 }
+.logo{
+    display: flex;
+    margin-right: 20px;
+}
+.logo img{
+    height: 10%;
+    width: 10%;
+}
+
+.header-nav h1
+{
+    text-decoration:underline;
+}
+
+
 
 .navigation
 {
@@ -25,7 +47,7 @@
 
 .navigation li a
 {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 
@@ -65,3 +87,59 @@
     }
 }
 
+
+.mask
+{
+    width:100% ;
+    height: 100%;
+    position: relative;
+}
+
+.firstimg
+{
+    width:100% ;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.mask::after
+{
+    content: "";
+    width:100% ;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity:0.7 ;
+
+}
+
+.backIm
+{
+    width:100% ;
+    height: 100%;
+}
+
+.backIm .content
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.backIm .content h1
+{
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+}
+
+.backIm .content p
+{
+    font-size: 1.4rem;
+    font-weight: 200;
+}

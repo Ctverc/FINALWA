@@ -9,7 +9,7 @@
 
 body 
 {
-background: rgb(0, 7, 4);
+background: rgb(0, 0, 0);
 }
 
 code {
@@ -19,7 +19,7 @@ code {
 
 h1,h2,p,a
 {
-  color: rgb(224, 209, 89);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
