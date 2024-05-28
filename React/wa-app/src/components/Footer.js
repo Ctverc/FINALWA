@@ -9,7 +9,7 @@ const Footer = () => {
         <Icon path={mdiAccount}
         size={2}
         style={{color: "#fff"}}
-        />
+        />a
         </div>
       </div>
     </div>
