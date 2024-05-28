@@ -3,12 +3,26 @@ import "./styles.css"
 import React, { useState } from 'react'
 import {FaBars,FaTimes}from "react-icons/fa";
 import LogCz from "../images/ceskaflagTR.png"
+
 const Navbar = () => {
-const[click,setClick] = useState(false);
-const handleClick = () => setClick(!click)
+  const[click,setClick] = useState(false);
+  const handleClick = () => setClick(!click)
+
+  const [color,setColor] = useState(false);
+  const changeColor = () =>{
+    if(window.scrollY >=100)
+      {
+        setColor(true);
+      }else
+      {
+        setColor(false);
+      }
+  };
+
+  window.addEventListener("scroll", changeColor);
 
   return (
-    <div className="header-nav">
+    <div className={color ? "header-nav header-bg" : "header-nav"}>
       <Link className="logo" to ="/">
         <img src={LogCz} alt="czflag"/>
         <h1>Blender creations</h1>

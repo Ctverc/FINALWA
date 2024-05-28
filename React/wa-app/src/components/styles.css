@@ -1,5 +1,8 @@
 
-
+body
+{
+    margin: 0;
+}
 
 .header-nav
 {
@@ -9,9 +12,19 @@
     padding: 1rem;
     position: fixed;
     width: 100%;
-    height: 90px;
+    height: 110px;
     z-index: 10;
+    
+   
 }
+
+.header-bg
+{
+    background-color: rgb(0, 0, 0, 0.7);
+    transition: 0.3s;
+    
+}
+
 .logo{
     display: flex;
     margin-right: 20px;
@@ -51,7 +64,7 @@
     font-weight: 600;
 }
 
-@media screen and (max-width: 1040px){
+@media screen and (max-width: 1460px){
     .navigation
     {
         flex-direction: column;
@@ -64,6 +77,7 @@
         left: -100%;
         z-index: -2;
         transition: 0.5s;
+        background-color: rgb(0, 0, 0, 0.6);
     }
 
     .navigation.active
@@ -87,6 +101,14 @@
     }
 }
 
+/*             */
+
+
+.backIm
+{
+    width:100%;
+    height:100vh;
+}
 
 .mask
 {
@@ -100,7 +122,7 @@
     width:100% ;
     height: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     object-fit: cover;
 }
 
@@ -117,11 +139,7 @@
 
 }
 
-.backIm
-{
-    width:100% ;
-    height: 100%;
-}
+
 
 .backIm .content
 {
@@ -134,12 +152,26 @@
 
 .backIm .content h1
 {
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 0.6rem 0 1.5rem;
 }
 
 .backIm .content p
 {
-    font-size: 1.4rem;
+    font-size: 1.1;
     font-weight: 200;
+}
+
+@media screen and (max-width: 840px)
+{
+    .backIm .content h1
+    {
+        font-size: 2rem;
+        padding: 0.6rem 0 1 5rem;
+    }
+
+    .backIm .content p
+    {
+        font-size: 1.4rem;
+    }
 }
