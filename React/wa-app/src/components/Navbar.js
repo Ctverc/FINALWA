@@ -35,7 +35,7 @@ const Navbar = () => {
             <Link to ="/Contacts">Contacts</Link>
           </li>
           <li>
-            <Link to ="/Register">Sign in</Link>
+            <Link to ="/Login">Sign in</Link>
           </li>
        </ul>
        <div className="menuForSmallMon" onClick={handleClick}>

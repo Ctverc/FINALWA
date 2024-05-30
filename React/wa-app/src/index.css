@@ -64,3 +64,10 @@ color: gray;
   color: rgb(255, 255, 255);
   transition: 0.3s;
 }
+
+.content
+{
+  border-radius: 25px;
+  background: #858585;
+  padding: 20px;
+}
