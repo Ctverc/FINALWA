@@ -1,0 +1,67 @@
+.header
+{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+
+
+.card-space
+{
+    max-width: 1500px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3,2fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.card
+{
+    background: rgb(51, 51, 51);
+    padding: 1.2rem 1rem;
+    width: 500px;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.card img
+{
+    width: 100%;
+}
+
+.title
+{
+color: white;
+padding: 1rem 0;
+}
+
+.description p
+{
+ padding-bottom: 1rem;
+ font-size: 1.2rem;
+ text-align: justify;
+}
+
+
+.buttons .btn
+{
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 750px) {
+    .card-space
+    {
+        max-width: 90%;
+        margin: auto;
+
+        grid-template-columns: 1fr;
+    }
+}
+
+

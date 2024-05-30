@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 *{
   box-sizing: border-box;
-  font-family: "Timmana", sans-serif;
-  font-weight: 400;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
   font-style: normal;
 }
+
+
 
 body 
 {
@@ -27,11 +30,13 @@ h1,h2,p,a
 {
   padding: 12px 32px;
   font-size: 1rem;
-  background: yellow;
+  background: rgb(253, 252, 158);
   color: black;
-  border: 1px gray;
+  border: 1px solid #000000;
   text-transform: uppercase;
+  font-weight: 500;
   cursor: pointer;
+  
 }
 .btn-second
 {
@@ -55,7 +60,7 @@ color: gray;
 
 .btn:hover 
 {
-  background: black, 0.5;
-  color: white;
+  background: rgb(255, 255, 255), 0.5;
+  color: rgb(255, 255, 255);
   transition: 0.3s;
 }
