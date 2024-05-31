@@ -11,7 +11,7 @@ const cards = (props) => {
                 <p>{props.text}</p>
                 <div className="buttons">
                     <NavLink to={props.view} className="btn">Odkaz na hudbu</NavLink>
-                    <NavLink to="youtube.com" className="btn">View pictures</NavLink>
+                    <NavLink to="Pictures" className="btn">View pictures</NavLink>
                 </div>
             </div>
     </div>
