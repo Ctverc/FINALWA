@@ -45,10 +45,11 @@ const Login = () => {
     <div className="mask">
         <img className="firstimg" src={FirstImage} alt="IMGF"/>
     </div>
-    <div className="content" >
+    <div className="content a" >
         
     
             <h2>Login</h2>
+            <p>Login to acces secret site</p>
             <form onSubmit={handleLogin}>
                 <div>
                     <label>Username:</label>
@@ -75,7 +76,6 @@ const Login = () => {
             <h4>Dont have an account?: <Link to ="/Register">Register</Link></h4>
         </div>
         </div>
-        
         <Footer/>
   </div>
     );

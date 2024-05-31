@@ -68,6 +68,16 @@ color: gray;
 .content
 {
   border-radius: 25px;
-  background: #858585;
   padding: 20px;
+}
+
+.a
+{
+  background: #858585;
+}
+
+.active
+{
+  font-weight: bold;
+  color: aqua;
 }

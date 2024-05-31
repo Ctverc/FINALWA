@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
-import BckImage from '../components/BckImage';
+import Image from '../components/ContactImage';
 import Footer from '../components/Footer';
 const contacts = () => {
   return (
     <div>
     <Navbar/>
+    <Image/>
+    
     <Footer/>
     </div>
   )

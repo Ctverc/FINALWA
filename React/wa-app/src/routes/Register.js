@@ -33,7 +33,7 @@ const Register = () => {
     <div className="mask">
         <img className="firstimg" src={FirstImage} alt="IMGF"/>
     </div>
-    <div className="content">
+    <div className="content a">
         
    
             <h2>Register</h2>

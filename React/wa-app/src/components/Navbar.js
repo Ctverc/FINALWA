@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import "./styles.css"
 import React, { useState } from 'react'
 import {FaBars,FaTimes}from "react-icons/fa";
@@ -23,19 +23,19 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header-nav header-bg" : "header-nav"}>
-      <Link className="logo" to ="/">
+      <NavLink className="logo" to ="/">
         <img src={LogCz} alt="czflag"/>
         <h1>Blender creations</h1>
-      </Link>
+      </NavLink>
        <ul className={click ? "navigation active" : "navigation"}>
           <li>
-            <Link to ="/Articles">Articles</Link>
+            <NavLink to ="/About">About me</NavLink>
           </li>
           <li>
-            <Link to ="/Contacts">Contacts</Link>
+            <NavLink to ="/Contacts">Contacts</NavLink>
           </li>
           <li>
-            <Link to ="/Login">Sign in</Link>
+            <NavLink to ="/Login">Sign in</NavLink>
           </li>
        </ul>
        <div className="menuForSmallMon" onClick={handleClick}>
