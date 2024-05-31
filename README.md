@@ -1,4 +1,11 @@
-# FINALWA
+# Final WA
+# Nazev - blender creations gallery
+Webová stránka je responzivní s připojením na php registrem a loginem
+
+# Technologie
+React, XAMPP s Mysql a Apache, PHP
+
+
 JB
 # Jak program správně nainstalovat a spustit
 1. Git clone https://github.com/Ctverc/FINALWA.git
