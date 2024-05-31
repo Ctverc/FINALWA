@@ -1,9 +1,39 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import Navbar from '../components/Navbar';
+import Image from '../components/SecretFaceImage';
+import Footer from '../components/Footer';
+import { useNavigate } from "react-router-dom";
+// acces nefunguje
+let acces = true;
 
-const signedInSite = () => {
-  return (
-    <div>This is secret site</div>
-  )
+function signIn() {
+    acces = true;
 }
 
-export default signedInSite
+function logout() {
+    acces = false;
+}
+
+function check(che) {
+}
+
+const SignedInSite = () => {
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (!acces) {
+            navigate('/login');
+        }
+    },);
+
+    return (
+        <div>
+            <Navbar />
+            <Image />
+            <h1>SecretSite</h1>
+            <Footer />
+        </div>
+    );
+}
+
+export default SignedInSite;

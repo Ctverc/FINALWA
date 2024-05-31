@@ -9,6 +9,7 @@ import Contacts from './routes/contacts';
 import Login from './routes/Login';
 import Register from './routes/Register';
 import Secret from './routes/signedInSite';
+import Pictures from './routes/Pictures';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path="/About" element={<Articles />}/>
       <Route path="/Register" element={<Register />}/>
       <Route path="/SecretSite" element={<Secret />}/>
+      <Route path="/Pictures" element={<Pictures />}/>
     </Routes>
     </>
   );

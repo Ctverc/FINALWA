@@ -1,7 +1,7 @@
 // Login.js
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 import "../components/styles.css";
 import FirstImage from "../images/Kuchyn.png"
@@ -12,6 +12,7 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const [message, setMessage] = useState('');
     const [loggedInUser, setLoggedInUser] = useState(null);
+    const navigate = useNavigate();
 
     const handleLogin = async (e) => {
         e.preventDefault();
@@ -72,7 +73,10 @@ const Login = () => {
                 <button type="submit">Login</button>
             </form>
             {message && <p>{message}</p>}
-            {loggedInUser && <p>Welcome, {loggedInUser}!</p>}
+            
+            {loggedInUser && <p>Welcome, {
+            
+            navigate("/SecretSite")}!</p>}
             <h4>Dont have an account?: <Link to ="/Register">Register</Link></h4>
         </div>
         </div>

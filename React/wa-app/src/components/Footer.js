@@ -31,7 +31,6 @@ const Footer = () => {
           <h3 style={{color: "#fff",marginBottom:"-20px", padding:0, }} >Something about this site</h3>
         
           <p>Kecy kecy ježek v kleci
-            Neco neco _____ kleslo
             Nevim brecim
             Lorem Ipsum?
           </p>

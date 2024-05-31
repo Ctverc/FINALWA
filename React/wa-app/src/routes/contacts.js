@@ -7,7 +7,6 @@ const contacts = () => {
     <div>
     <Navbar/>
     <Image/>
-    
     <Footer/>
     </div>
   )

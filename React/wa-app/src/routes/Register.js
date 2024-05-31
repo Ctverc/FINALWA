@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 import Navbar from '../components/Navbar';
-import BckImage from '../components/BckImage';
 import Footer from '../components/Footer';
 import "../components/styles.css";
 import FirstImage from "../images/Kuchyn.png"

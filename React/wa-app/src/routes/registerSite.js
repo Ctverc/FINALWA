@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+/*import React, {Component} from 'react'
 
 class registerSite extends Component
 {
@@ -44,4 +44,4 @@ class registerSite extends Component
 
 
 
-export default registerSite
+export default registerSite*/

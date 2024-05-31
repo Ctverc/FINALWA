@@ -1,6 +1,5 @@
 import "./Cards.css"
 import React from 'react'
-import pic1 from "../images/mistnost.png";
 import { NavLink } from "react-router-dom";
 const cards = (props) => {
   return (
@@ -11,8 +10,8 @@ const cards = (props) => {
             <div className="description">
                 <p>{props.text}</p>
                 <div className="buttons">
-                    <NavLink to={props.view} className="btn">View</NavLink>
-                    <NavLink to="youtube.com" className="btn">Source</NavLink>
+                    <NavLink to={props.view} className="btn">Odkaz na hudbu</NavLink>
+                    <NavLink to="youtube.com" className="btn">View pictures</NavLink>
                 </div>
             </div>
     </div>

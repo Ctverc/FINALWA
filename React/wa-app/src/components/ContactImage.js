@@ -6,12 +6,6 @@ import { mdiEmailAlertOutline } from '@mdi/js';
 import { mdiPhoneOutline } from '@mdi/js';
 import { mdiHomeAnalytics } from '@mdi/js';
 
-
-
-
-
-
-
 const ContactImage = () => {
   return (
     <div className="backIm">
