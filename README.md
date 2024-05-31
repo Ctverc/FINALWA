@@ -21,7 +21,7 @@ Stranka byla napsana s pomoci tutorialů:
 2. https://www.youtube.com/watch?v=LEbktaYL1hE
 3. https://www.youtube.com/watch?v=yxnm109XdYI
 4. https://www.youtube.com/watch?v=NchaUq42tu4&t
-5. + další
+5. ..a další
 
 a pomoci ChatGPT
 https://chatgpt.com/
