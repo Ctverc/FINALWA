@@ -10,7 +10,8 @@ const SecBckImage = () => {
     </div>
     <div className="b">
         <h1>About</h1>
-        <p>Oliverovi při jeho narození v místním chudobinci/sirotčinci umírá matka, poněvadž není nikdo, kdo by se dítěte ujal, zůstává i nadále jeho „zajatcem“; jméno mu tehdy určila obec. Sirotek Oliver vyrůstá v chudobinci pod vládou krutého a nelidského pana Bumbla, kde je všem na obtíž a bylo by lepší, kdyby raději umřel.</p>
+        <p>Jsem žák třetího ročníku střední školy.</p>
+        <p>Programuji a rád tvořím v blenderu.</p>
     </div>
   </div>
   )

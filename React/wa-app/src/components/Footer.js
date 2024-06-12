@@ -28,11 +28,9 @@ const Footer = () => {
         </div>
 
         <div className='about'>
-          <h3 style={{color: "#fff",marginBottom:"-20px", padding:0, }} >Something about this site</h3>
+          <h3 style={{color: "#fff",marginBottom:"-20px", padding:0, }} >O této stránce</h3>
         
-          <p>Kecy kecy ježek v kleci
-            Nevim brecim
-            Lorem Ipsum?
+          <p>Tato stránka vznikla jako projekt do školy
           </p>
         </div>
       </div>

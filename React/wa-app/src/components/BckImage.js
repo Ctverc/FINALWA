@@ -8,7 +8,7 @@ const BckImage = () => {
         <img className="firstimg" src={FirstImage} alt="IMGF"/>
     </div>
     <div className="content">
-        <h1>Blender creations</h1>
+        <h1>Blender výtvory</h1>
         <p></p>
         <p></p>
     </div>

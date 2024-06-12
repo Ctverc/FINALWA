@@ -9,7 +9,7 @@ const SecretFaceImage = () => {
         <img className="firstimg" src={Image} alt="IMGF"/>
     </div>
     <div className="content">
-        <h1>Secret site</h1>
+        <h1>Skrytá stránka</h1>
     </div>
   </div>
   )

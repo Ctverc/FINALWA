@@ -11,7 +11,7 @@
     max-width: 1500px;
     display: grid;
     margin: auto;
-    grid-template-columns: repeat(3,2fr);
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
 }
@@ -54,7 +54,7 @@ padding: 1rem 0;
     padding: 0.5rem 1rem;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
     .card-space
     {
         max-width: 90%;
@@ -63,5 +63,7 @@ padding: 1rem 0;
         grid-template-columns: 1fr;
     }
 }
+
+
 
 

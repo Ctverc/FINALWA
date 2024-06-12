@@ -7,7 +7,7 @@ import Data from "./GalleryCardData";
 const Gallery = () => {
   return (
     <div className="workspace">
-        <h1 className="header">Also see</h1>
+        <h1 className="header">Také se koukněte</h1>
             <div className="card-space">
                 {Data.map((value,index) =>{
                     return(

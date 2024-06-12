@@ -30,7 +30,7 @@ const SignedInSite = () => {
         <div>
             <Navbar />
             <Image />
-            <h1>SecretSite</h1>
+            <h1>Skrytá stránka pro splnění zadání</h1>
             <Footer />
         </div>
     );
